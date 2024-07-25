@@ -4,7 +4,8 @@
   "private": true,
   "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node-dev src/index.ts"
+    "start": "ts-node-dev src/index.ts",
+    "bootstrap": "yarn install && yarn playwright install"
   },
   "devDependencies": {
     "@types/node": "^20.14.12",
